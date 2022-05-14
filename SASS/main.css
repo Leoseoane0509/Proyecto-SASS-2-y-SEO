@@ -233,17 +233,6 @@ form .btn:hover {
   padding: 0.5rem;
 }
 
-.navbar {
-  background-color: lightseagreen;
-  width: 100%;
-}
-
-.navbar-collapse {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-}
-
 .carousel-indicators [data-bs-target] {
   height: 10px;
   background-color: #000;
@@ -320,6 +309,17 @@ form .btn:hover {
 
 #skills .card .btn {
   background-color: lightseagreen;
+}
+
+.navbar {
+  background-color: lightseagreen;
+  width: 100%;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 footer {

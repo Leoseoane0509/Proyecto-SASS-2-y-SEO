@@ -1,0 +1,69 @@
+// ACERCA DE
+// Main
+// Jumbotron
+.carousel-indicators [data-bs-target] {
+  height: 10px;
+  background-color: $color1;
+}
+.jumbotron2 {
+  background-color: $bg-color2;
+  & h1 {
+    text-shadow: 6px 5px 7px rgba(32, 178, 170, 1);
+  }
+}
+// Carousel
+.carousel-item {
+  & img {
+    opacity: 0.8;
+  }
+  & h5 {
+    color: $color1;
+    font-weight: 600;
+  }
+  & p {
+    color: $color1;
+  }
+}
+// Habilidades
+#skills {
+  background-color: $bg-color4;
+  & h2 {
+    text-shadow: 6px 5px 7px rgba(32, 178, 170, 1);
+  }
+  & .card {
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: $bg-color2;
+    & img {
+      height: 250px;
+    }
+    & h5 {
+      color: $color3;
+      font-weight: 600;
+      text-align: center;
+    }
+    & p {
+      color: $color3;
+      text-align: center;
+      line-height: 2rem;
+    }
+    & .link {
+      text-align: center;
+    }
+    & .enlace {
+      border: 1px solid $color3;
+      color: $color3;
+      border-radius: 1rem;
+      -webkit-border-radius: 1rem;
+      -moz-border-radius: 1rem;
+      -ms-border-radius: 1rem;
+      -o-border-radius: 1rem;
+    }
+    & .enlace:hover {
+      background-color: rgb(57, 225, 216);
+    }
+    & .btn {
+      background-color: $bg-color1;
+    }
+  }
+}

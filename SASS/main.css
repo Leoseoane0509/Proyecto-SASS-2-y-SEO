@@ -244,12 +244,30 @@ form .btn:hover {
           justify-content: end;
 }
 
+.carousel-indicators [data-bs-target] {
+  height: 10px;
+  background-color: #000;
+}
+
 .jumbotron2 {
   background-color: #212121;
 }
 
 .jumbotron2 h1 {
   text-shadow: 6px 5px 7px lightseagreen;
+}
+
+.carousel-item img {
+  opacity: 0.8;
+}
+
+.carousel-item h5 {
+  color: #000;
+  font-weight: 600;
+}
+
+.carousel-item p {
+  color: #000;
 }
 
 footer {

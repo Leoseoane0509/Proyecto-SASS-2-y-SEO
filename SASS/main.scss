@@ -29,11 +29,30 @@ body {
 // ACERCA DE
 // Main
 // Jumbotron
+.carousel-indicators [data-bs-target] {
+  height: 10px;
+  background-color: $color1;
+}
 .jumbotron2 {
   background-color: $bg-color2;
   & h1 {
     text-shadow: 6px 5px 7px rgba(32, 178, 170, 1);
   }
 }
+// Carousel
+.carousel-item {
+  & img {
+    opacity: 0.8;
+  }
+  & h5 {
+    color: $color1;
+    font-weight: 600;
+  }
+  & p {
+    color: $color1;
+  }
+}
+// Habilidades
+
 // Import del footer
 @import "_footer";

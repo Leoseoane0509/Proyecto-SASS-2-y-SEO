@@ -244,6 +244,14 @@ form .btn:hover {
           justify-content: end;
 }
 
+.jumbotron2 {
+  background-color: #212121;
+}
+
+.jumbotron2 h1 {
+  text-shadow: 6px 5px 7px lightseagreen;
+}
+
 footer {
   background-color: lightseagreen;
   width: 100%;

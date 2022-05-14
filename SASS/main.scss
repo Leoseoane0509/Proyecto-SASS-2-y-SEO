@@ -26,5 +26,14 @@ body {
 .navbar-collapse {
   justify-content: end;
 }
+// ACERCA DE
+// Main
+// Jumbotron
+.jumbotron2 {
+  background-color: $bg-color2;
+  & h1 {
+    text-shadow: 6px 5px 7px rgba(32, 178, 170, 1);
+  }
+}
 // Import del footer
 @import "_footer";

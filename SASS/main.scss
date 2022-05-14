@@ -26,24 +26,5 @@ body {
 .navbar-collapse {
   justify-content: end;
 }
-// Footer
-footer {
-  background-color: lightseagreen;
-  height: auto;
-  width: $width;
-  & .container-fluid {
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    & p {
-      text-align: center;
-      color: $color3;
-      font-weight: $font-w;
-      padding: 0.7rem;
-      font-size: 1.2em;
-      margin-bottom: 0;
-    }
-  }
-}
+// Import del footer
+@import "_footer";

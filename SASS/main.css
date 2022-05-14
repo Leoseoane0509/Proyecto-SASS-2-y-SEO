@@ -246,8 +246,8 @@ form .btn:hover {
 
 footer {
   background-color: lightseagreen;
-  height: auto;
   width: 100%;
+  height: 7rem;
 }
 
 footer .container-fluid {
@@ -265,5 +265,15 @@ footer .container-fluid p {
   padding: 0.7rem;
   font-size: 1.2em;
   margin-bottom: 0;
+}
+
+footer .footer__redes {
+  text-align: center;
+}
+
+footer .footer__redes a {
+  padding: 1.2rem;
+  font-size: 1.5em;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,95 @@
+// CONTACTO
+// MAIN
+// Formulario de contacto
+#contact-main {
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 70rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact-main h2 {
+  text-shadow: 4px 4px 2px rgba(32, 178, 170, 1);
+  text-transform: uppercase;
+}
+/* Formulario de contacto */
+#h1 {
+  cursor: pointer;
+  background-color: #ebebeb;
+  border: 1px solid rgba(0, 0, 255, 0.2);
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 20%);
+  max-width: 2560px;
+  padding: 20px;
+  font-weight: 800;
+  line-height: 2rem;
+}
+.form {
+  background-color: lightseagreen;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 255, 0.2);
+  box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 20%);
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+input:hover,
+textarea:hover {
+  border: solid 2px #000;
+}
+.form-label {
+  font-weight: 600;
+}
+#comments {
+  resize: none;
+}
+.form-select:hover {
+  cursor: pointer;
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #1a2980 0%,
+    #26d0ce 51%,
+    #1a2980 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

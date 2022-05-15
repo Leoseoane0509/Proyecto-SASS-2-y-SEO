@@ -385,6 +385,33 @@ form .btn:hover {
   background-color: #212121;
 }
 
+.jumbo-color {
+  background-color: #212121;
+  height: 30rem;
+}
+
+.jumbo-color h1 {
+  text-align: center;
+  text-shadow: 6px 5px 1px lightseagreen;
+}
+
+.jumbo-color p {
+  text-align: center;
+}
+
+.accordion .accordion-item {
+  border: 1px solid #000;
+}
+
+.accordion .accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: lightseagreen;
+}
+
+.accordion .item5 {
+  margin-bottom: 1rem;
+}
+
 .navbar {
   background-color: lightseagreen;
   width: 100%;

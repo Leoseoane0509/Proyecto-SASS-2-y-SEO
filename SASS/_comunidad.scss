@@ -1,0 +1,27 @@
+// COMUNIDAD
+// MAIN
+// Jumbotron
+.jumbo-color {
+  background-color: $bg-color2;
+  height: 30rem;
+  & h1 {
+    text-align: center;
+    text-shadow: 6px 5px 1px rgba(32, 178, 170, 1);
+  }
+  & p {
+    text-align: center;
+  }
+}
+// Preguntas frecuentes
+.accordion {
+  & .accordion-item {
+    border: 1px solid $color1;
+  }
+  & .accordion-button:not(.collapsed) {
+    color: $color3;
+    background-color: $bg-color1;
+  }
+  & .item5 {
+    margin-bottom: 1rem;
+  }
+}

@@ -336,6 +336,55 @@ form .btn:hover {
   color: lightseagreen;
 }
 
+#services {
+  background-color: #7d8389;
+}
+
+#services h2 {
+  color: #fafafa;
+  text-shadow: 6px 5px 7px lightseagreen;
+}
+
+#services .card {
+  padding: 1rem;
+  margin: 2rem auto;
+}
+
+#services .card h5 {
+  color: #fff;
+  text-align: center;
+}
+
+#services .card p {
+  color: #fff;
+  text-align: center;
+  line-height: 2rem;
+}
+
+#services .card .card-link {
+  text-align: center;
+}
+
+#services .card .card-link a {
+  background-color: lightseagreen;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border: 1px solid #fff;
+  font-weight: bold;
+}
+
+#services .card .card-link a:hover {
+  color: #fff;
+  background-color: #44e6de;
+}
+
+.card-color {
+  background-color: #212121;
+}
+
 .navbar {
   background-color: lightseagreen;
   width: 100%;
@@ -364,7 +413,7 @@ footer .container-fluid {
 footer .container-fluid p {
   text-align: center;
   color: #fff;
-  font-weight: 600;
+  font-weight: bold;
   padding: 0.7rem;
   font-size: 1.2em;
   margin-bottom: 0;

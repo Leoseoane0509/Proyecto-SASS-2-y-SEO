@@ -4,6 +4,10 @@
 .jumbo-color {
   background-color: $bg-color2;
   height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   & h1 {
     text-align: center;
     text-shadow: 6px 5px 1px rgba(32, 178, 170, 1);
@@ -14,8 +18,11 @@
 }
 // Preguntas frecuentes
 .accordion {
+  & .item1 {
+    border-top: 1px solid $color1;
+  }
   & .accordion-item {
-    border: 1px solid $color1;
+    border-bottom: 1px solid $color1;
   }
   & .accordion-button:not(.collapsed) {
     color: $color3;

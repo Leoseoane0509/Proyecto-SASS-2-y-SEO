@@ -311,6 +311,31 @@ form .btn:hover {
   background-color: lightseagreen;
 }
 
+#certificates {
+  background-color: #fafafa;
+  height: auto;
+  width: 100%;
+}
+
+#certificates .heading {
+  background-color: #212121;
+  color: #fff;
+  height: 5rem;
+}
+
+#certificates .list-group-item {
+  background-color: #fafafa;
+}
+
+#certificates .list-group-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+#certificates .list-group-item a:hover {
+  color: lightseagreen;
+}
+
 .navbar {
   background-color: lightseagreen;
   width: 100%;

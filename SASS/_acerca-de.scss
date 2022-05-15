@@ -67,3 +67,24 @@
     }
   }
 }
+// Certificaciones
+#certificates {
+  background-color: $bg-color3;
+  height: auto;
+  width: $width;
+  & .heading {
+    background-color: $bg-color2;
+    color: $color3;
+    height: 5rem;
+  }
+  & .list-group-item {
+    background-color: $bg-color3;
+    & a {
+      text-decoration: none;
+      color: $color2;
+    }
+    & a:hover {
+      color: $bg-color1;
+    }
+  }
+}

@@ -23,14 +23,7 @@
     & .card-link {
       text-align: center;
       & a {
-        background-color: $bg-color1;
-        border-radius: 1rem;
-        -webkit-border-radius: 1rem;
-        -moz-border-radius: 1rem;
-        -ms-border-radius: 1rem;
-        -o-border-radius: 1rem;
-        border: 1px solid $color3;
-        font-weight: $font-w;
+        @include services-link($bg-color1, 1rem, 1px solid $color3, $font-w);
       }
       & a:hover {
         color: $color3;

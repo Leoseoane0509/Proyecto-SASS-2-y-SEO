@@ -22,9 +22,7 @@ footer {
   & .footer__redes {
     text-align: center;
     & a {
-      padding: 1.2rem;
-      font-size: 1.5em;
-      color: $color3;
+      @include footer-redes-a(1.2rem, 1.5em, $color3);
     }
   }
 }

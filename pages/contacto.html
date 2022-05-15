@@ -61,12 +61,12 @@
     <!-- Formulario de contacto inicio -->
     <article class="row m-4">
       <div class="col-12">
-        <h1 id="h1">Formulario de contacto</h1>
+        <h1 id="h1" data-aos="flip-up">Formulario de contacto</h1>
       </div>
     </article>
     <div class="container p-3">
-      <h2 class="text-center">¡Charlemos!</h2>
-      <form action="contacto.html" class="form">
+      <h2 class="text-center" data-aos="flip-up">¡Charlemos!</h2>
+      <form action="contacto.html" class="form" data-aos="flip-left">
         <div class="row p-3">
           <!-- Nombre -->
           <div class="col-md-6 mt-2">
@@ -123,16 +123,18 @@
             <textarea class="form-control" id="comments" rows="3" required></textarea>
           </div>
           <!-- Recordarme -->
-          <div class=" col-md-3 form-check mt-2">
-            <label class="form-check-label fw-bold">
-              <input class="form-check-input" type="checkbox" name="remember"> Recordarme
-            </label>
-          </div>
-          <!-- Submit -->
-          <div class="col-md-3 mt-2 d-flex flex-column justify-content-center align-items-center">
-            <button type="submit" class="btn btn-success btn-grad">
-              Enviar
-            </button>
+          <div class="cont col-md-6">
+            <div class=" form-check mt-2">
+              <label class="form-check-label fw-bold">
+                <input class="form-check-input" type="checkbox" name="remember"> Recordarme
+              </label>
+            </div>
+            <!-- Submit -->
+            <div class=" mt-2 d-flex flex-column justify-content-center align-items-center">
+              <button type="submit" class="btn btn-success btn-grad">
+                Enviar
+              </button>
+            </div>
           </div>
         </div>
       </form>

@@ -497,8 +497,18 @@ form .btn:hover {
 }
 
 .form .row input:hover,
-.form .row textarea:hover {
+.form .row textarea:hover,
+.form .row .form-select:hover {
   border: solid 2px #000;
+}
+
+.form .row .form-control,
+.form .row .form-select {
+  outline: #ebebeb solid 2px;
+}
+
+.form .row .form-control:focus {
+  border-color: #0000ff33;
 }
 
 .form .row .form-label {
@@ -511,6 +521,28 @@ form .btn:hover {
 
 .form .row .form-select:hover {
   cursor: pointer;
+}
+
+.form .row .form-check-input {
+  cursor: pointer;
+}
+
+.form .row .form-check-input:hover {
+  border: none;
+}
+
+.form .row .cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .form .row .btn-grad {

@@ -31,7 +31,12 @@
   border: $border;
   font-weight: $f-weight;
 }
-// ---------------------------------------------------------
+// Mixin con valores de altura y ancho genéricos para ser reutilizados
+@mixin sizes($h, $w) {
+  height: $h;
+  width: $w;
+}
+// --------------------------------------------------------
 // Css general
 * {
   padding: 0;
@@ -39,11 +44,11 @@
   box-sizing: border-box;
 }
 html {
-  height: $height;
+  @include sizes(100%, 100%);
 }
 body {
   font-family: $font-f;
-  height: $height;
+  @include sizes(100%, 100%);
 }
 // ---------------------------------------------------------------
 // Import del index

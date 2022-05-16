@@ -7,12 +7,6 @@ $quien-soy: nth($lista1, 1);
 // Este valor se va a estar aplicando al color de las estrellas en la parte de clientes (linea 131)
 $estrellas: nth($lista1, 3);
 // ------------------------------------------------------------------------------------
-// MAPA
-$font-weights: (
-  "regular": 400,
-  "medium": 500,
-  "bold": 600,
-);
 // INDEX
 // Main
 main {
@@ -54,7 +48,6 @@ form {
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
-    @debug map-get($font-weights, "bold");
   }
 }
 // Quién soy

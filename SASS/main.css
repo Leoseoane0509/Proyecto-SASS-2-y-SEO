@@ -250,6 +250,7 @@ form .btn:hover {
 .jumbotron2 h1 {
   text-align: center;
   text-shadow: 6px 5px 7px #20b2aa;
+  font-size: 2rem;
 }
 
 .carousel-item img {
@@ -260,6 +261,7 @@ form .btn:hover {
   color: #000;
   font-weight: 600;
   text-transform: uppercase;
+  font-size: 1em;
 }
 
 .carousel-item p {
@@ -272,6 +274,7 @@ form .btn:hover {
 
 #skills h2 {
   text-shadow: 6px 5px 7px #20b2aa;
+  font-size: 1.75em;
 }
 
 #skills .card {
@@ -331,6 +334,12 @@ form .btn:hover {
   height: 5rem;
 }
 
+#certificates .heading h3 {
+  font-size: 1.5em;
+  padding: 1rem;
+  text-shadow: 4px 4px 2px lightseagreen;
+}
+
 #certificates .list-group-item {
   background-color: #fafafa;
 }
@@ -344,12 +353,13 @@ form .btn:hover {
   color: #20b2aa;
 }
 
-.social .container h3 {
+.social .container h4 {
   text-align: center;
   color: #fff;
   background-color: #20b2aa;
   padding: 1rem;
   margin: 1.5rem;
+  font-size: 1.25em;
 }
 
 .social .redes a {

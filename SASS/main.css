@@ -338,6 +338,51 @@ form .btn:hover {
   color: #20b2aa;
 }
 
+.redes {
+  height: 50rem;
+  width: 100%;
+}
+
+.redes h3 {
+  background-color: lightseagreen;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+.redes a {
+  display: block;
+}
+
+.redes li {
+  list-style-type: none;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  margin: 1rem;
+}
+
+.redes li:hover {
+  opacity: 0.5;
+  transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+}
+
+li.facebook {
+  background-image: url("../media/facebook.jpg");
+}
+
+li.instagram {
+  background-image: url("../media/instagram.jpg");
+}
+
+li.linkedin {
+  background-image: url("../media/linkedin.jpg");
+}
+
 #services {
   background-color: #7d8389;
 }
@@ -387,7 +432,7 @@ form .btn:hover {
   background-color: #212121;
 }
 
-.jumbo-color {
+.jum-color {
   background-color: #212121;
   height: 30rem;
   display: -webkit-box;
@@ -405,12 +450,12 @@ form .btn:hover {
           align-items: center;
 }
 
-.jumbo-color h1 {
+.jum-color h1 {
   text-align: center;
   text-shadow: 6px 5px 1px lightseagreen;
 }
 
-.jumbo-color p {
+.jum-color p {
   text-align: center;
 }
 

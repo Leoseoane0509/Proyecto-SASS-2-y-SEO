@@ -88,3 +88,33 @@
     }
   }
 }
+// Redes sociales
+.redes {
+  height: 50rem;
+  width: 100%;
+  & h3 {
+    background-color: lightseagreen;
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  & a {
+    display: block;
+  }
+  & li {
+    list-style-type: none;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 1rem;
+  }
+  & li:hover {
+    opacity: 0.5;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+  }
+}
+@import "_each";

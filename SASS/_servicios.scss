@@ -3,7 +3,7 @@
 // Servicios
 #services {
   background-color: $bg-color4;
-  & h2 {
+  & h1 {
     color: $bg-color3;
     @include sombras(6px 5px 7px $bg-color1);
   }

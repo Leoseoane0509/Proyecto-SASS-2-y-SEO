@@ -338,37 +338,36 @@ form .btn:hover {
   color: #20b2aa;
 }
 
-.redes {
-  height: 50rem;
-  width: 100%;
+.social .container h3 {
+  text-align: center;
+  color: #fff;
+  background-color: #20b2aa;
+  padding: 1rem;
+  margin: 1.5rem;
 }
 
-.redes h3 {
-  background-color: lightseagreen;
-  padding: 1.5rem;
-  margin: 1rem;
+.social .redes a {
+  display: table;
 }
 
-.redes a {
-  display: block;
-}
-
-.redes li {
-  list-style-type: none;
+.social .redes li {
   height: 200px;
   width: 200px;
   background-size: cover;
   background-position: center;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
   margin: 1rem;
+  list-style-type: none;
+  -webkit-box-shadow: 12px 12px 2px 1px #0000ff33;
+          box-shadow: 12px 12px 2px 1px #0000ff33;
 }
 
-.redes li:hover {
+.social .redes li:hover {
   opacity: 0.5;
-  transition: all 0.8s;
-  -webkit-transition: all 0.8s;
-  -moz-transition: all 0.8s;
-  -ms-transition: all 0.8s;
-  -o-transition: all 0.8s;
 }
 
 li.facebook {

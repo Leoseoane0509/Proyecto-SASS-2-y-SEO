@@ -89,32 +89,39 @@
   }
 }
 // Redes sociales
-.redes {
-  height: 50rem;
-  width: 100%;
-  & h3 {
-    background-color: lightseagreen;
-    padding: 1.5rem;
-    margin: 1rem;
+.social {
+  & .container {
+    & h3 {
+      text-align: center;
+      color: $color3;
+      background-color: $bg-color1;
+      padding: 1rem;
+      margin: 1.5rem;
+    }
   }
-  & a {
-    display: block;
-  }
-  & li {
-    list-style-type: none;
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: center;
-    margin: 1rem;
-  }
-  & li:hover {
-    opacity: 0.5;
-    transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -ms-transition: all 0.8s;
-    -o-transition: all 0.8s;
+  & .redes {
+    & .row {
+    }
+    & a {
+      display: table;
+    }
+    & li {
+      height: 200px;
+      width: 200px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 1rem;
+      -webkit-border-radius: 1rem;
+      -moz-border-radius: 1rem;
+      -ms-border-radius: 1rem;
+      -o-border-radius: 1rem;
+      margin: 1rem;
+      list-style-type: none;
+      box-shadow: 12px 12px 2px 1px $color4;
+    }
+    & li:hover {
+      opacity: 0.5;
+    }
   }
 }
 @import "_each";

@@ -6,3 +6,4 @@ Optimización del SEO:
 5- Ordené los encabezados de manera jerárquica en cada página del sitio
 6- Organicé la jerarquía de los archivos del sitio
 7- Me aseguré de no poner fragmentos de texto muy largos, para que sea más amigable para el usuario
+8- Me aseguré de completar todos los textos alternativos (alt) de las imágenes, para los screen readers

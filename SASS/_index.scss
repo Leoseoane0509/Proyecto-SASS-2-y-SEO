@@ -77,7 +77,7 @@ form {
   height: auto;
   width: $width;
   & h2 {
-    text-shadow: 6px 5px 7px rgba(32, 178, 170, 1);
+    @include sombras(6px 5px 7px $bg-color1);
   }
 }
 .testimonial {

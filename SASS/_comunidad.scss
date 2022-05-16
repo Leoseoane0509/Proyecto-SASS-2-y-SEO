@@ -10,7 +10,7 @@
   align-items: center;
   & h1 {
     text-align: center;
-    text-shadow: 6px 5px 1px rgba(32, 178, 170, 1);
+    @include sombras(6px 5px 1px $bg-color1);
   }
   & p {
     text-align: center;

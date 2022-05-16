@@ -36,6 +36,10 @@
   height: $h;
   width: $w;
 }
+// Mixin para ciertas sombras (jumbotron index + jumbotron acerca de + skills acerca de + h2 servicios + jumbotron comunidad +h2 contacto)
+@mixin sombras($text-sh) {
+  text-shadow: $text-sh;
+}
 // --------------------------------------------------------
 // -------------------------------------------------
 // Css general

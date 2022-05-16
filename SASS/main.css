@@ -111,7 +111,7 @@ form .btn:hover {
 }
 
 #testimonials h2 {
-  text-shadow: 6px 5px 7px lightseagreen;
+  text-shadow: 6px 5px 7px #20b2aa;
 }
 
 .testimonial {
@@ -245,7 +245,7 @@ form .btn:hover {
 }
 
 .jumbotron2 h1 {
-  text-shadow: 6px 5px 7px lightseagreen;
+  text-shadow: 6px 5px 7px #20b2aa;
 }
 
 .carousel-item img {
@@ -266,7 +266,7 @@ form .btn:hover {
 }
 
 #skills h2 {
-  text-shadow: 6px 5px 7px lightseagreen;
+  text-shadow: 6px 5px 7px #20b2aa;
 }
 
 #skills .card {
@@ -388,7 +388,7 @@ li.linkedin {
 
 #services h2 {
   color: #fafafa;
-  text-shadow: 6px 5px 7px lightseagreen;
+  text-shadow: 6px 5px 7px #20b2aa;
 }
 
 #services .card {
@@ -451,7 +451,7 @@ li.linkedin {
 
 .jum-color h1 {
   text-align: center;
-  text-shadow: 6px 5px 1px lightseagreen;
+  text-shadow: 6px 5px 1px #20b2aa;
 }
 
 .jum-color p {

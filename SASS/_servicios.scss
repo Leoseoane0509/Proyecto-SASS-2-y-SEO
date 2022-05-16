@@ -5,7 +5,7 @@
   background-color: $bg-color4;
   & h2 {
     color: $bg-color3;
-    text-shadow: 6px 5px 7px rgba(32, 178, 170, 1);
+    @include sombras(6px 5px 7px $bg-color1);
   }
   & .card {
     padding: 1rem;

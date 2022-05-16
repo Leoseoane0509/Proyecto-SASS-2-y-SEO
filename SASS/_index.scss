@@ -1,3 +1,9 @@
+// MAPA
+$font-weights: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 600,
+);
 // INDEX
 // Main
 main {
@@ -7,7 +13,6 @@ main {
 // Jumbotron
 #jumbotron {
   & .jumbotron {
-    width: $width;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +45,7 @@ form {
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
-    font-weight: 600;
+    @debug map-get($font-weights, "bold");
   }
 }
 // Quién soy

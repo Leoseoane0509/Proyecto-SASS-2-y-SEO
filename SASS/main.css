@@ -22,7 +22,6 @@ main {
 }
 
 #jumbotron .jumbotron {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,7 +67,6 @@ form .btn:hover {
   -moz-transform: translateY(-10px);
   -ms-transform: translateY(-10px);
   -o-transform: translateY(-10px);
-  font-weight: 600;
 }
 
 #me {
@@ -422,11 +420,30 @@ li.linkedin {
   -o-border-radius: 1rem;
   border: 1px solid #fff;
   font-weight: bold;
+  padding: 15px 50px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 #services .card .card-link a:hover {
   color: #fff;
   background-color: #44e6de;
+  transform: translateX(5px) translateY(5px);
+  -webkit-transform: translateX(5px) translateY(5px);
+  -moz-transform: translateX(5px) translateY(5px);
+  -ms-transform: translateX(5px) translateY(5px);
+  -o-transform: translateX(5px) translateY(5px);
+  border: none;
 }
 
 .card-color {
@@ -480,11 +497,11 @@ li.linkedin {
 #resources .encabezado3, #resources p {
   text-align: center;
   color: #fff;
+  padding: 1rem;
 }
 
 #resources .encabezado3 {
   background-color: #20b2aa;
-  padding: 1rem;
   margin: 2rem;
   -webkit-box-shadow: 12px 12px 2px 1px #0000ff33;
           box-shadow: 12px 12px 2px 1px #0000ff33;
@@ -492,6 +509,7 @@ li.linkedin {
 
 #resources p {
   background-color: #7d8389;
+  line-height: 2rem;
 }
 
 #contacto-main {

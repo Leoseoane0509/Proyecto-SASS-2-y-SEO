@@ -33,20 +33,23 @@
   }
 }
 // Recursos útiles
+// EXTEND
 %encabezadoYparrafo {
   text-align: $text-align;
   color: $color3;
+  padding: 1rem;
 }
+// -------------------------------------
 #resources {
   & .encabezado3 {
     background-color: $bg-color1;
     @extend %encabezadoYparrafo;
-    padding: 1rem;
     margin: 2rem;
     box-shadow: 12px 12px 2px 1px $color4;
   }
   & p {
     @extend %encabezadoYparrafo;
     background-color: $bg-color4;
+    line-height: 2rem;
   }
 }

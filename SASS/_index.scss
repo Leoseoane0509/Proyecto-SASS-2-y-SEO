@@ -1,3 +1,12 @@
+// LISTAS
+$lista1: uppercase, #fff, #ffd700;
+// Este valor se va a estar aplicando al color del encabezado de "nombre" en la sección de clientes (línea 170)
+$author: nth($lista1, 2);
+// Este valor se va a estar aplicando para poner el encabezado de "quien soy" todo en mayúsculas (línea 80)
+$quien-soy: nth($lista1, 1);
+// Este valor se va a estar aplicando al color de las estrellas en la parte de clientes (linea 131)
+$estrellas: nth($lista1, 3);
+// ------------------------------------------------------------------------------------
 // MAPA
 $font-weights: (
   "regular": 400,
@@ -67,6 +76,9 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  & h2 {
+    text-transform: $quien-soy;
+  }
 }
 .me-left {
   width: 50%;
@@ -119,7 +131,7 @@ form {
     font-style: italic;
   }
   & i {
-    color: gold;
+    color: $estrellas;
   }
 }
 
@@ -158,7 +170,7 @@ form {
     padding: 0 10px 0 120px;
     margin: 0;
     text-transform: uppercase;
-    color: #ffffff;
+    color: $author;
     -webkit-transform: translateY(50%);
     transform: translateY(50%);
   }

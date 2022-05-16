@@ -93,6 +93,10 @@ form .btn:hover {
           align-items: center;
 }
 
+#me h2 {
+  text-transform: uppercase;
+}
+
 .me-left {
   width: 50%;
   height: 80%;
@@ -150,7 +154,7 @@ form .btn:hover {
 }
 
 .testimonial i {
-  color: gold;
+  color: #ffd700;
 }
 
 .testimonial blockquote:before,
@@ -189,7 +193,7 @@ form .btn:hover {
   padding: 0 10px 0 120px;
   margin: 0;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   -webkit-transform: translateY(50%);
   transform: translateY(50%);
 }

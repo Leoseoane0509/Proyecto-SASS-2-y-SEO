@@ -255,6 +255,7 @@ form .btn:hover {
 .carousel-item h5 {
   color: #000;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .carousel-item p {
@@ -307,6 +308,7 @@ form .btn:hover {
 
 #skills .card .enlace:hover {
   background-color: #39e1d8;
+  border: none;
 }
 
 #skills .card .btn {

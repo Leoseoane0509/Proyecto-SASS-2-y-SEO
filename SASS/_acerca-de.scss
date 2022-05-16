@@ -20,6 +20,7 @@
   & h5 {
     color: $color1;
     font-weight: 600;
+    text-transform: uppercase;
   }
   & p {
     color: $color1;
@@ -62,6 +63,7 @@
     }
     & .enlace:hover {
       background-color: rgb(57, 225, 216);
+      border: none;
     }
     & .btn {
       background-color: $bg-color1;

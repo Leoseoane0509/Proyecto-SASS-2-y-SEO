@@ -87,7 +87,7 @@ form {
   background-color: $bg-color4;
   height: auto;
   width: $width;
-  & h2 {
+  & h3 {
     @include sombras(6px 5px 7px $bg-color1);
   }
 }

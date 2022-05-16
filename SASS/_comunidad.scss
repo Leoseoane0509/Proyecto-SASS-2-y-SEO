@@ -1,3 +1,11 @@
+// EXTEND
+%encabezadoYparrafo {
+  text-align: $text-align;
+  color: $color3;
+  padding: 1rem;
+  box-shadow: 12px 12px 2px 1px $color4;
+}
+// ---------------------------------------------------
 // COMUNIDAD
 // MAIN
 // Jumbotron
@@ -17,12 +25,23 @@
   }
 }
 // Preguntas frecuentes
+#questions {
+  & .container {
+    & h2 {
+      background-color: $bg-color1;
+      margin: 1.5rem;
+      color: $color3;
+      box-shadow: 12px 12px 2px 1px $color4;
+    }
+  }
+}
 .accordion {
   & .item1 {
     border-top: 1px solid $color1;
   }
   & .accordion-item {
     border-bottom: 1px solid $color1;
+    box-shadow: none;
   }
   & .accordion-button:not(.collapsed) {
     color: $color3;
@@ -33,19 +52,11 @@
   }
 }
 // Recursos útiles
-// EXTEND
-%encabezadoYparrafo {
-  text-align: $text-align;
-  color: $color3;
-  padding: 1rem;
-}
-// -------------------------------------
 #resources {
   & .encabezado3 {
     background-color: $bg-color1;
     @extend %encabezadoYparrafo;
     margin: 2rem;
-    box-shadow: 12px 12px 2px 1px $color4;
   }
   & p {
     @extend %encabezadoYparrafo;
